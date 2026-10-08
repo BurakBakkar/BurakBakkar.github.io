@@ -1,6 +1,6 @@
 # Burak Bakkar — Portfolio
 
-**🔗 Live site: [burakbakkar.github.io/my_portfolio](https://burakbakkar.github.io/my_portfolio/)**
+**🔗 Live site: [burakbakkar.github.io](https://burakbakkar.github.io/)**
 
 Personal portfolio of Burak Bakkar, BioAI Research Engineer at InstaDeep (BioNTech Group), applying machine learning to clinical trials and protein science.
 
