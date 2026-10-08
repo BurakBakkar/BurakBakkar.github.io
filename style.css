@@ -430,3 +430,78 @@ footer {
 footer p {
   text-align: center;
 }
+.work-grid {
+  flex-wrap: wrap;
+}
+
+.work-card {
+  flex: 1 1 40%;
+  text-align: left;
+}
+
+.work-role {
+  color: rgb(85, 85, 85);
+  font-weight: 600;
+  margin: 0 1rem 1rem;
+}
+
+.work-text {
+  margin: 0 1rem;
+  line-height: 1.5;
+}
+
+#background {
+  position: relative;
+}
+
+/* Text-heavy sections grow with their content instead of the fixed 96vh,
+   otherwise overflow runs underneath the next section. */
+#experience,
+#projects,
+#background {
+  height: auto;
+  min-height: 96vh;
+  padding-bottom: 6rem;
+}
+
+.bg-entry {
+  margin: 0 1rem 1.25rem;
+}
+
+.bg-entry h3 {
+  margin-bottom: 0.25rem;
+}
+
+.bg-entry .work-role,
+.bg-entry .work-text {
+  margin: 0 0 0.25rem;
+}
+
+.lang-list {
+  list-style: none;
+  margin: 0 1rem;
+  padding: 0;
+}
+
+.lang-list li {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid rgb(220, 220, 220);
+}
+
+.lang-list li span:last-child {
+  color: rgb(85, 85, 85);
+}
+
+.bg-column {
+  flex: 1 1 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.bg-column .work-card {
+  flex: 0 0 auto;
+}
